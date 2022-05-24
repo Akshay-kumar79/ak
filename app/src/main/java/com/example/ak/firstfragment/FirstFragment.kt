@@ -19,6 +19,7 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
+        val fuck = 1
 
         binding = FragmentFirstBinding.inflate(inflater, container, false)
         val sharedPreference = requireContext().getSharedPreferences("my_shared_pref", Context.MODE_PRIVATE)
